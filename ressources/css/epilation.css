@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "Autography";
+  src: local("ressources/fonts/Autography.otf");
+}
+html {
+  color: #707070;
+}
+
+#background {
+  width: 100%;
+  height: 1200px;
+  background-image: url("https://www.wallpapertip.com/wmimgs/76-761019_344736-title-women-face-wallpaper-hair-color-model.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#headLogo {
+  margin-left: 10%;
+  width: 34%;
+  height: 20%;
+  display: flex;
+}
+
+#imageLogo {
+  height: 100%;
+  width: 45%;
+  display: flex;
+}
+
+#texteLogo {
+  height: 80%;
+  width: 70%;
+  display: flex;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+#navBarre {
+  margin-left: 10%;
+  width: 50%;
+  height: 4%;
+  display: flex;
+  margin-right: 10%;
+}
+
+/*=================mise en forme navbar============================*/
+#navBarreText {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  font-family: "Autography";
+  src: local("ressources/fonts/Autography.ttf");
+}
+
+#navBarreText a{
+  text-decoration: none;
+  color: #707070;
+}
+#navBarreText a:hover{
+  color:#E3CC1D
+}
+/*==============fin de mise en forme navbar========================*/
+
+/* ici commence le tableau */
+
+table {
+  margin-left: 10%;
+  margin-top: 3em;
+  font-size: 1.4em;
+}
+
+.service {
+  width: 40%;
+}
+
+.space {
+  width: 3.6%;
+}
+.prix {
+  width: 5%;
+}
+.imgTab {
+  width: 30px;
+  height: 30px;
+}
+
+#creneauxLibres {
+  margin-left: 22%;
+  margin-top: 3%;
+  font-size: 1.3em;
+  
+}
+#creneauxLibres a {
+  color: #E3CC1D;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+/* ici se termine le tableau */
+
+
+#footNav {
+  margin-right: 10%;
+  margin-left: 10%;
+  width: 50%;
+  height: 4%;
+  display: flex;
+  margin-top: 1%;
+}
+
+/*==============debut de mise en forme footer========================*/
+#footNavTexte {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-content: space-between;
+  font-size: 30px;
+  color: #707070;
+  justify-content: space-between;
+}
+
+#footNavTexte a {
+  text-decoration: none;
+  font-family: "Autography";
+  src: local("ressources/fonts/Autography.ttf");
+  color: #707070;
+}
+
+#footNavTexte a:hover{
+  color:#E3CC1D;
+}
+/*==============fin de mise en forme footer========================*/
